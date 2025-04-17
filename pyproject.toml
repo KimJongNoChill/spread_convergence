@@ -1,0 +1,14 @@
+[project]
+name = "spread-convergence"
+version = "0.1.0"
+description = "Simple spread convergence strategy framework in a Jupyter Notebook"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "yfinance>=0.2.55",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "matplotlib>=3.10.1",
+    "seaborn>=0.13.2",
+    "ipykernel>=6.29.5",
+]
